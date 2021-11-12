@@ -1,0 +1,158 @@
+#navbar
+{
+    height: 8vh;
+    width: 99%;
+    position: sticky;
+    left: 1%;
+    top: 0%;
+    border-bottom: 2px solid;
+    background:rgb(245, 244, 244);
+}
+#navbar ul{
+    padding: 0px;
+    display: flex;
+    margin: 8px 0px;
+}
+#navbar ul li:hover
+{
+    transition: background-color .8s;
+    background: rgb(0, 0, 0);
+    border-radius: 26px;
+    
+}
+
+#navbar ul li{
+    list-style: none;
+    align-items: center;
+    height: 50px;
+    font-size: 19px;
+    font-weight: bold;
+    
+    /* border: 2px solid red; */
+    margin: 0px;
+    width: 24.5%;
+}
+
+#navbar ul li a:hover .navbar-tooltip{
+    /* visibility: visible; */
+    color: white;
+}
+
+/* Home */
+#home
+{        
+    margin-top: 0vh;
+    height: 92vh;
+    width: 99.6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: -333px; */
+    align-items: center;
+
+}
+
+/* About Section */
+#about h1
+{
+    margin-bottom: 0px;
+    margin-top: 9vh;
+    font-size: 2.3rem;
+    color: rgb(61 114 119);
+}
+#description{
+    width: 80%;
+    margin: 3vh 0px;
+    text-align: center;
+}
+
+
+#MCA-Container
+{
+    width: 90%;
+}
+#info h3{
+    color: rgb(0 83 90);
+    font-size: 1.4rem;
+    margin: auto;
+    text-align: center;
+}
+#MCA-Heading
+{
+    margin: 3vh 0vh
+}
+#info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 96%;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 67px;
+}
+
+/* Skills Section */
+/*
+#skills
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: 105vh;
+} 
+
+#skills-list 
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 76vh;
+    padding: 0px;
+}
+
+#skills-list li
+{
+    width: 97%;
+    margin: 9px;
+    height: 8vh;
+}
+
+
+/* Resume 
+#resume
+{
+    display: flex;
+    flex-direction: column;
+    height: 122vh;
+    align-items: center;
+}
+
+
+#summary
+{
+    display: block;
+    width: 89%;
+    margin: 20px;
+    padding-left: 0px;
+    height: 27vh;
+}
+
+#education
+{
+    display: block;
+    width: 89%;
+    margin: 20px;
+    padding-left: 0px;
+    height:85vh;
+}
+.sub-container-blocks
+{
+    /* border: 2px solid red; 
+    height: 22vh;
+    width: 88%;
+    margin-top: 3px
+}*/
